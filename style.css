@@ -347,7 +347,6 @@ a {
 .trgames{
     position: relative;
     top: -15rem;
-    background-color: #3c3e40;
     height: auto;
 }
 .divtr1{
@@ -387,16 +386,198 @@ a {
 }
 
 .divtr3{
-    position: relative;
-    background-color: #242628;
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
     display: inline-block;
-    left: 2rem;
+    margin-left: 9rem;
 }
-.tr31{
-    border-radius: 30px;
 
+.tr31{
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden; 
+    && img{
+        width: 15vw;
+    }
 }
 
 .precio1{
+    background-color: #3c3e40;
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    padding: 15px;
+    border-radius: 25px;
+}
 
+.tr32{
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+
+    && h6{
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+    && h2{
+        padding-bottom: 19px;
+    }
+}
+
+.tr32:hover{
+    color: #242628;
+}
+
+.divtr4{
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+    height: 36vh;
+}
+
+.tr41{
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden; 
+    && img{
+        width: 15vw;
+    }
+}
+
+.precio2{
+    background-color: #3c3e40;
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.tr42{
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+
+    && h6{
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+    && h2{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.tr42:hover{
+    color: #242628;
+}
+
+.divtr5{
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+    height: 36vh;
+}
+
+.tr51{
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden; 
+    && img{
+        width: 15vw;
+    }
+}
+
+.precio3{
+    background-color: #3c3e40;
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.tr52{
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+
+    && h6{
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+    && h2{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.tr52:hover{
+    color: #242628;
+}
+
+.divtr6{
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+    height: 36vh;
+}
+
+.tr61{
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden; 
+    && img{
+        width: 15vw;
+    }
+}
+
+.precio4{
+    background-color: #3c3e40;
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.tr62{
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+
+    && h6{
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+    && h2{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.tr62:hover{
+    color: #242628;
 }
