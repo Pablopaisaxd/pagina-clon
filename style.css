@@ -117,7 +117,7 @@ a {
         position: absolute;
         right: 20px;
         top: 20px;
-        background-color: rgb(0, 106, 255);
+        background-color: rgb(27, 20, 20);
         color: #fff;
         border-radius: 25px;
         font-size: 22px;
@@ -129,7 +129,7 @@ a {
         left: -25px;
         bottom: -25px;
         border-radius: 50%;
-        background-color: #9b252d;
+        background-color: #460106;
         font-size: 28px;
         color: #fff;
         width: 100px;
@@ -173,3 +173,37 @@ a {
 
 }
 
+.servicios{
+    position: relative;
+    top: -19rem;
+    left: -7rem;
+    z-index: 2;
+    background-color: rgba(120, 32, 32, 0.166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 5px;
+}
+.srvc1{
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    && div{
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        text-align: center;
+        background-color: #3c3e40;
+        border-radius: 50%;
+    }
+    && img{
+        padding-top: 20px;
+    }
+
+    && h2{
+        padding-top: 15px;
+    }
+}
