@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.052);
+    background-color: rgba(31, 30, 30, 0.318);
     width: 100%;
     position: fixed;
     z-index: 3;
@@ -367,12 +367,13 @@ a {
     height: 15vh;
     width: 50vw;
     position: relative;
-    left: 45rem;
+    left: 650px;
     text-align: right;
+    transition:  0.5s ease;
 
     && a{
         position: relative;
-        top: 4vh;
+        top: 40px;
         background-color: #460106;
         border-radius: 25px;
         padding: 10px;
@@ -399,14 +400,14 @@ a {
     border-radius: 25px;
     overflow: hidden; 
     && img{
-        width: 15vw;
+        width: 20vw;
     }
 }
 
 .precio1{
     background-color: #3c3e40;
     position: absolute;
-    left: 9rem;
+    left: 13rem;
     top: 2rem;
     padding: 15px;
     border-radius: 25px;
@@ -418,6 +419,7 @@ a {
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
+    transition:  0.5s ease;
 
     && h6{
         color: #3c3e40;
@@ -425,6 +427,23 @@ a {
     }
     && h2{
         padding-bottom: 19px;
+    }
+    && a{
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: #64040b;
+        color: #fff;
+        border-radius: 50%;
+        right: 73.5rem;
+        bottom: 3rem;
+    }
+
+    && img{
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -439,7 +458,6 @@ a {
     margin-bottom: 30px;
     display: inline-block;
     margin-left: 16px;
-    height: 36vh;
 }
 
 .tr41{
@@ -447,14 +465,15 @@ a {
     border-radius: 25px;
     overflow: hidden; 
     && img{
-        width: 15vw;
+        width: 20vw;
+        height: 34vh;
     }
 }
 
 .precio2{
     background-color: #3c3e40;
     position: absolute;
-    left: 9rem;
+    left: 13rem;
     top: 2rem;
     padding: 15px;
     border-radius: 25px;
@@ -466,6 +485,8 @@ a {
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
+    transition:  0.5s ease;
+    padding-bottom: 10px;
 
     && h6{
         color: #3c3e40;
@@ -475,7 +496,23 @@ a {
         font-size: 19px;
         padding-bottom: 10px;
     }
+    && a{
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: #64040b;
+        color: #fff;
+        border-radius: 50%;
+        left: 42.8rem;
+        bottom: 3rem;
+    }
 
+    && img{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .tr42:hover{
@@ -489,7 +526,6 @@ a {
     margin-bottom: 30px;
     display: inline-block;
     margin-left: 16px;
-    height: 36vh;
 }
 
 .tr51{
@@ -497,14 +533,15 @@ a {
     border-radius: 25px;
     overflow: hidden; 
     && img{
-        width: 15vw;
+        width: 20vw;
+        height: 34vh;
     }
 }
 
 .precio3{
     background-color: #3c3e40;
     position: absolute;
-    left: 9rem;
+    left: 13rem;
     top: 2rem;
     padding: 15px;
     border-radius: 25px;
@@ -516,6 +553,8 @@ a {
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
+    transition:  0.5s ease;
+    padding-bottom: 10px;
 
     && h6{
         color: #3c3e40;
@@ -525,7 +564,23 @@ a {
         font-size: 19px;
         padding-bottom: 10px;
     }
+    && a{
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: #64040b;
+        color: #fff;
+        border-radius: 50%;
+        right: 32.4rem;
+        bottom: 3rem;
+    }
 
+    && img{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .tr52:hover{
@@ -539,22 +594,21 @@ a {
     margin-bottom: 30px;
     display: inline-block;
     margin-left: 16px;
-    height: 36vh;
 }
-
 .tr61{
     position: relative;
     border-radius: 25px;
     overflow: hidden; 
     && img{
-        width: 15vw;
+        width: 20vw;
+        height: 34vh;
     }
 }
 
 .precio4{
     background-color: #3c3e40;
     position: absolute;
-    left: 9rem;
+    left: 13rem;
     top: 2rem;
     padding: 15px;
     border-radius: 25px;
@@ -566,6 +620,8 @@ a {
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
+    transition:  0.5s ease;
+    padding-bottom: 10px;
 
     && h6{
         color: #3c3e40;
@@ -573,7 +629,24 @@ a {
     }
     && h2{
         font-size: 19px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;   
+    }
+    && a{
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: #64040b;
+        color: #fff;
+        border-radius: 50%;
+        right: 12.2rem;
+        bottom: 3rem;
+    }
+
+    && img{
+        width: 30px;
+        height: 30px;
     }
 
 }
@@ -581,3 +654,4 @@ a {
 .tr62:hover{
     color: #242628;
 }
+
