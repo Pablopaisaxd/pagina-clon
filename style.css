@@ -676,3 +676,234 @@ a {
 .tr62:hover {
     color: #242628;
 }
+
+
+.mostgames {
+    position: relative;
+    top: -15rem;
+    height: auto;
+    background-color: #52535477;
+    border-radius: 55px;
+}
+
+.divmost1 {
+    padding-top: 8px;
+    padding-left: 150px;
+
+    && h6 {
+        font-size: 15px;
+        color: #460106;
+    }
+
+    && h2 {
+        padding-top: 15px;
+        font-size: 35px;
+    }
+}
+
+.divmost2 {
+    height: 15vh;
+    width: 50vw;
+    position: relative;
+    left: 650px;
+    text-align: right;
+    transition: 0.5s ease;
+
+    && a {
+        position: relative;
+        top: 40px;
+        background-color: #460106;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 10px;
+        transition: 0.5s ease;
+    }
+
+    && a:hover {
+        background-color: #64040b;
+    }
+}
+
+.divmost3 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 9rem;
+}
+
+.most31 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 33vh;
+    }
+}
+
+.most32 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        padding-bottom: 19px;
+    }
+
+}
+
+.most32:hover {
+    color: #242628;
+}
+
+.divmost4 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.most41 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+
+.most42 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+.most42:hover {
+    color: #242628;
+}
+
+.divmost5 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.most51 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+.most52 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.most52:hover {
+    color: #242628;
+}
+
+.divmost6 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.most61 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+.most62 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.most62:hover {
+    color: #242628;
+}
+
