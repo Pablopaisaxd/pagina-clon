@@ -50,6 +50,13 @@ a {
     width: 50%;
 }
 
+.div2{
+    padding: 10px;
+    border-radius: 5px;
+}
+.div2:hover{
+    background-color: #3c3e40;
+}
 .texto {
     position: relative;
     display: inline-block;
@@ -175,7 +182,7 @@ a {
 
 .servicios{
     position: relative;
-    top: -19rem;
+    top: -20rem;
     left: -7rem;
     z-index: 2;
     background-color: rgba(120, 32, 32, 0.166);
@@ -186,14 +193,16 @@ a {
     padding: 5px;
 }
 .srvc1{
-    padding: 40px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px;
     border-radius: 25px;
     background-color: #fff;
     text-align: center;
+    width: 22vw;
+    height: 30vh;
+    overflow: hidden;
     && div{
         width: 90px;
-        height: 90px;
+        height: 85px;
         display: inline-block;
         text-align: center;
         background-color: #3c3e40;
@@ -204,6 +213,8 @@ a {
     }
 
     && h2{
-        padding-top: 15px;
+        padding-top: 19px;
+        font-size: 18px;
     }
 }
+
