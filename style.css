@@ -27,7 +27,7 @@ header {
     border-radius: 5px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
@@ -53,19 +53,22 @@ a {
 .div2 {
     padding: 10px;
     border-radius: 20px;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 }
 
 .div2:hover {
     background-color: #242628;
 }
 
-.div3, .div4{
+.div3,
+.div4 {
     padding: 10px;
     border-radius: 20px;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 }
-.div3:hover,.div4:hover{
+
+.div3:hover,
+.div4:hover {
     background-color: #242628;
 }
 
@@ -113,7 +116,7 @@ a {
         position: absolute;
         left: 400px;
         color: #fff;
-        transition:  0.5s ease;
+        transition: 0.5s ease;
     }
 
     && button:hover {
@@ -235,13 +238,14 @@ a {
     background-color: #3c3e40;
     border-radius: 50%;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
     && img {
         padding-top: 20px;
     }
 }
-.img:hover{
+
+.img:hover {
     background-color: #646161;
 }
 
@@ -268,13 +272,14 @@ a {
     background-color: #3c3e40;
     border-radius: 50%;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
     && img {
         padding-top: 20px;
     }
 }
-.img2:hover{
+
+.img2:hover {
     background-color: #646161;
 }
 
@@ -301,13 +306,14 @@ a {
     background-color: #3c3e40;
     border-radius: 50%;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
     && img {
         padding-top: 20px;
     }
 }
-.img3:hover{
+
+.img3:hover {
     background-color: #646161;
 }
 
@@ -334,59 +340,62 @@ a {
     background-color: #3c3e40;
     border-radius: 50%;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
     && img {
         padding-top: 20px;
     }
 }
-.img4:hover{
+
+.img4:hover {
     background-color: #646161;
 }
 
-.trgames{
+.trgames {
     position: relative;
     top: -15rem;
     height: auto;
 }
-.divtr1{
+
+.divtr1 {
     padding-top: 8px;
     padding-left: 150px;
 
-    && h6{
+    && h6 {
         font-size: 15px;
         color: #460106;
     }
-    && h2{
+
+    && h2 {
         padding-top: 15px;
         font-size: 35px;
     }
 }
 
-.divtr2{
+.divtr2 {
     height: 15vh;
     width: 50vw;
     position: relative;
     left: 650px;
     text-align: right;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
-    && a{
+    && a {
         position: relative;
         top: 40px;
         background-color: #460106;
         border-radius: 25px;
         padding: 10px;
         margin-top: 10px;
-        transition:  0.5s ease;
+        transition: 0.5s ease;
     }
 
-    && a:hover{
+    && a:hover {
         background-color: #64040b;
     }
 }
 
-.divtr3{
+.divtr3 {
     background-color: #646161;
     overflow: hidden;
     border-radius: 25px;
@@ -395,16 +404,17 @@ a {
     margin-left: 9rem;
 }
 
-.tr31{
+.tr31 {
     position: relative;
     border-radius: 25px;
-    overflow: hidden; 
-    && img{
+    overflow: hidden;
+
+    && img {
         width: 20vw;
     }
 }
 
-.precio1{
+.precio1 {
     background-color: #3c3e40;
     position: absolute;
     left: 13rem;
@@ -413,22 +423,24 @@ a {
     border-radius: 25px;
 }
 
-.tr32{
+.tr32 {
     padding-top: 15px;
     background-color: #646161;
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
 
-    && h6{
+    && h6 {
         color: #3c3e40;
         padding-bottom: 5px;
     }
-    && h2{
+
+    && h2 {
         padding-bottom: 19px;
     }
-    && a{
+
+    && a {
         position: absolute;
         display: inline-block;
         text-align: center;
@@ -441,17 +453,17 @@ a {
         bottom: 3rem;
     }
 
-    && img{
+    && img {
         width: 30px;
         height: 30px;
     }
 }
 
-.tr32:hover{
+.tr32:hover {
     color: #242628;
 }
 
-.divtr4{
+.divtr4 {
     background-color: #646161;
     overflow: hidden;
     border-radius: 25px;
@@ -460,17 +472,18 @@ a {
     margin-left: 16px;
 }
 
-.tr41{
+.tr41 {
     position: relative;
     border-radius: 25px;
-    overflow: hidden; 
-    && img{
+    overflow: hidden;
+
+    && img {
         width: 20vw;
         height: 34vh;
     }
 }
 
-.precio2{
+.precio2 {
     background-color: #3c3e40;
     position: absolute;
     left: 13rem;
@@ -479,24 +492,26 @@ a {
     border-radius: 25px;
 }
 
-.tr42{
+.tr42 {
     padding-top: 15px;
     background-color: #646161;
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
     padding-bottom: 10px;
 
-    && h6{
+    && h6 {
         color: #3c3e40;
         padding-bottom: 5px;
     }
-    && h2{
+
+    && h2 {
         font-size: 19px;
         padding-bottom: 10px;
     }
-    && a{
+
+    && a {
         position: absolute;
         display: inline-block;
         text-align: center;
@@ -509,17 +524,17 @@ a {
         bottom: 3rem;
     }
 
-    && img{
+    && img {
         width: 30px;
         height: 30px;
     }
 }
 
-.tr42:hover{
+.tr42:hover {
     color: #242628;
 }
 
-.divtr5{
+.divtr5 {
     background-color: #646161;
     overflow: hidden;
     border-radius: 25px;
@@ -528,17 +543,18 @@ a {
     margin-left: 16px;
 }
 
-.tr51{
+.tr51 {
     position: relative;
     border-radius: 25px;
-    overflow: hidden; 
-    && img{
+    overflow: hidden;
+
+    && img {
         width: 20vw;
         height: 34vh;
     }
 }
 
-.precio3{
+.precio3 {
     background-color: #3c3e40;
     position: absolute;
     left: 13rem;
@@ -547,24 +563,26 @@ a {
     border-radius: 25px;
 }
 
-.tr52{
+.tr52 {
     padding-top: 15px;
     background-color: #646161;
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
     padding-bottom: 10px;
 
-    && h6{
+    && h6 {
         color: #3c3e40;
         padding-bottom: 5px;
     }
-    && h2{
+
+    && h2 {
         font-size: 19px;
         padding-bottom: 10px;
     }
-    && a{
+
+    && a {
         position: absolute;
         display: inline-block;
         text-align: center;
@@ -577,17 +595,17 @@ a {
         bottom: 3rem;
     }
 
-    && img{
+    && img {
         width: 30px;
         height: 30px;
     }
 }
 
-.tr52:hover{
+.tr52:hover {
     color: #242628;
 }
 
-.divtr6{
+.divtr6 {
     background-color: #646161;
     overflow: hidden;
     border-radius: 25px;
@@ -595,17 +613,19 @@ a {
     display: inline-block;
     margin-left: 16px;
 }
-.tr61{
+
+.tr61 {
     position: relative;
     border-radius: 25px;
-    overflow: hidden; 
-    && img{
+    overflow: hidden;
+
+    && img {
         width: 20vw;
         height: 34vh;
     }
 }
 
-.precio4{
+.precio4 {
     background-color: #3c3e40;
     position: absolute;
     left: 13rem;
@@ -614,24 +634,26 @@ a {
     border-radius: 25px;
 }
 
-.tr62{
+.tr62 {
     padding-top: 15px;
     background-color: #646161;
     border-radius: 25px;
     padding-left: 15px;
     cursor: pointer;
-    transition:  0.5s ease;
+    transition: 0.5s ease;
     padding-bottom: 10px;
 
-    && h6{
+    && h6 {
         color: #3c3e40;
         padding-bottom: 5px;
     }
-    && h2{
+
+    && h2 {
         font-size: 19px;
-        padding-bottom: 10px;   
+        padding-bottom: 10px;
     }
-    && a{
+
+    && a {
         position: absolute;
         display: inline-block;
         text-align: center;
@@ -644,14 +666,13 @@ a {
         bottom: 3rem;
     }
 
-    && img{
+    && img {
         width: 30px;
         height: 30px;
     }
 
 }
 
-.tr62:hover{
+.tr62:hover {
     color: #242628;
 }
-
