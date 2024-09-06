@@ -950,7 +950,7 @@ a {
 }
 
 .most72:hover {
-    color: #242628;
+    color: #34383b;
 }
 
 .divmost8 {
@@ -998,3 +998,7 @@ a {
 .most82:hover {
     color: #34383b;
 }
+
+.divmost3, .divmost4, .divmost5, .divmost6, .divmost7, .divmost8{
+    margin-bottom: 60px;
+} 
