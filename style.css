@@ -687,7 +687,7 @@ a {
 }
 
 .divmost1 {
-    padding-top: 8px;
+    padding-top: 20px;
     padding-left: 150px;
 
     && h6 {
@@ -730,7 +730,7 @@ a {
     border-radius: 25px;
     margin-bottom: 30px;
     display: inline-block;
-    margin-left: 9rem;
+    margin-left: 4rem;
 }
 
 .most31 {
@@ -739,7 +739,7 @@ a {
     overflow: hidden;
 
     && img {
-        width: 20vw;
+        width: 14vw;
         height: 33vh;
     }
 }
@@ -764,7 +764,7 @@ a {
 }
 
 .most32:hover {
-    color: #242628;
+    color: #34383b;
 }
 
 .divmost4 {
@@ -782,7 +782,7 @@ a {
     overflow: hidden;
 
     && img {
-        width: 20vw;
+        width: 14vw;
         height: 34vh;
     }
 }
@@ -812,7 +812,7 @@ a {
 }
 
 .most42:hover {
-    color: #242628;
+    color: #34383b;
 }
 
 .divmost5 {
@@ -830,7 +830,7 @@ a {
     overflow: hidden;
 
     && img {
-        width: 20vw;
+        width: 14vw;
         height: 34vh;
     }
 }
@@ -858,7 +858,7 @@ a {
 }
 
 .most52:hover {
-    color: #242628;
+    color: #34383b;
 }
 
 .divmost6 {
@@ -876,7 +876,7 @@ a {
     overflow: hidden;
 
     && img {
-        width: 20vw;
+        width: 14vw;
         height: 34vh;
     }
 }
@@ -904,6 +904,97 @@ a {
 }
 
 .most62:hover {
+    color: #34383b;
+}
+
+.divmost7 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.most71 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 14vw;
+        height: 34vh;
+    }
+}
+
+
+.most72 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.most72:hover {
     color: #242628;
 }
 
+.divmost8 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.most81 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 14vw;
+        height: 34vh;
+    }
+}
+
+
+.most82 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+
+    && h6 {
+        color: #3c3e40;
+        padding-bottom: 5px;
+    }
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.most82:hover {
+    color: #34383b;
+}
