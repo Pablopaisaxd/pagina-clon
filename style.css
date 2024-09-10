@@ -351,6 +351,8 @@ a {
     background-color: #646161;
 }
 
+/* trending games css */
+
 .trgames {
     position: relative;
     top: -15rem;
@@ -677,6 +679,7 @@ a {
     color: #242628;
 }
 
+/* most played css */
 
 .mostgames {
     position: relative;
@@ -1002,3 +1005,193 @@ a {
 .divmost3, .divmost4, .divmost5, .divmost6, .divmost7, .divmost8{
     margin-bottom: 60px;
 } 
+
+/* categoria top css */
+
+.ctgrgames {
+    position: relative;
+    top: -15rem;
+    height: auto;
+}
+
+.divctgr1 {
+    padding-top: 8px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    && h6 {
+        font-size: 15px;
+        color: #460106;
+    }
+
+    && h2 {
+        padding-top: 15px;
+        font-size: 35px;
+    }
+}
+
+.divctgr2 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 9rem;
+}
+
+.ctgr21 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+    }
+}
+
+.ctgr22 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+
+    && h2 {
+        padding-bottom: 19px;
+    }
+
+}
+
+.ctgr22:hover {
+    color: #242628;
+}
+
+.divctgr3 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.ctgr31 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+.ctgr32 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+    text-align: center;
+
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.ctgr32:hover {
+    color: #242628;
+}
+
+.divctgr4 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.ctgr41 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+.ctgr42 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+    text-align: center;
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.ctgr42:hover {
+    color: #242628;
+}
+
+.divctgr5 {
+    background-color: #646161;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.ctgr51 {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    && img {
+        width: 20vw;
+        height: 34vh;
+    }
+}
+
+
+.ctgr52 {
+    padding-top: 15px;
+    background-color: #646161;
+    border-radius: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+    text-align: center;
+
+    && h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.ctgr52:hover {
+    color: #242628;
+}
