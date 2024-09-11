@@ -1195,3 +1195,22 @@ a {
 .ctgr52:hover {
     color: #242628;
 }
+
+.fondo3{
+    background-image: url(img/Jurassicpark-game-logo.jpg);
+    background-repeat: no-repeat;
+    height: 59vh;
+    position: relative;
+    justify-co
+}
+.contenedorsubs{
+    position: relative;
+    background-color: #34383b;
+    height: auto;
+}
+
+.shop{
+    position: relative;
+    display: inline-block;
+    background-color: #3c3e40;
+}
