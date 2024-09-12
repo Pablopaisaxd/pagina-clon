@@ -53,25 +53,31 @@ a {
     width: 50%;
 }
 
-.div2 {
-    background-color: rgb(38, 37, 37);
+.div2{
     padding: 10px;
     border-radius: 20px;
+    transition: 0.5s ease;
+}
+.div2:hover {
+    background-color: #242628;
 }
 
 
-.div3,
-.div4 {
+.div3 {
     padding: 10px;
     border-radius: 20px;
     transition: 0.5s ease;
 }
 
-.div3:hover,
-.div4:hover {
+.div3:hover {
     background-color: #242628;
 }
 
+.div4{
+    background-color: rgb(38, 37, 37);
+    padding: 10px;
+    border-radius: 20px;
+}
 .div5 {
     background-color: rgb(45, 44, 44);
     padding: 10px;
@@ -131,6 +137,7 @@ a {
 .contact{
     position: absolute;
     top:32rem;
+    width: 100%;
 }
 
 .text{
@@ -168,12 +175,10 @@ a {
 }
 
 .form{
-    background-color: aqua;
     position: relative;
-    left: 39rem;
-    top: -30rem;
-    width: 90vw;
-    display: inline-block;
+    left: 45rem;
+    top: -36rem;
+    width: 35vw;
 }
 .map{
     border-radius: 25px;
@@ -185,5 +190,54 @@ a {
 
 }
 .forms{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
 
+    && fieldset{
+        border-radius: 25px;
+        size: 30px;
+        border: none;
+    }
+    && input{
+        padding: 10px;
+        outline: none;
+        border: 10px black;
+        background-color: #242628;
+    }
+    && textarea{
+        padding: 60px;
+        width: 30vw;
+        margin-left: 20px;
+        border-radius: 25px;
+        background-color: #242628   ;
+    }
+
+    && button{
+        background-color: #4d0c0c;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    && button:hover{
+        background-color: #6d1515;
+    }
 }
+
+footer{
+    margin-top: 150px;
+    background-color: #1d2125;
+    height: 15vh;
+    border-radius: 150px 150px 0px 0px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 25px;
+    color: #910710;
+}
+
