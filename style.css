@@ -1196,21 +1196,150 @@ a {
     color: #242628;
 }
 
-.fondo3{
-    background-image: url(img/Jurassicpark-game-logo.jpg);
-    background-repeat: no-repeat;
-    height: 59vh;
-    position: relative;
-    justify-co
-}
+
+/* Novedades */
 .contenedorsubs{
+    padding-top: 100px;
     position: relative;
-    background-color: #34383b;
-    height: auto;
+    z-index: -2;
+    overflow: hidden;
 }
 
 .shop{
-    position: relative;
-    display: inline-block;
+    top: 4rem;
     background-color: #3c3e40;
+    border-radius: 25px;
+    padding: 80px;
+    height: 85vh;
+    width: 30vw;
+    top: 5rem;
+    margin-left: 7rem;
+}
+.encabezado1{
+    width: 13vw;
+    padding-bottom: 10px;
+
+    && h6{
+        padding-bottom: 15px;
+        color: #260608;
+        font-size: 15px;
+    }
+
+    && h2{
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+
+    && em{
+        color: #64040b;
+        font-style: normal;
+    }
+}
+
+.shopbtn{
+    background-color: #500c11;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 90px;
+    font-size: 20px;
+
+    && a{
+        color: #000000;
+    }
+}
+
+.shopbtn:hover{
+    background-color: #350b0e;
+}
+
+.novedades{
+    position: absolute;
+    top: 4rem;
+    background-color: #3c3e40;
+    border-radius: 25px;
+    padding: 80px;
+    height: 70vh;
+    width: 30vw;
+    left: 55rem; 
+    top: 13rem;
+}
+.encabezado2{
+    width: 13vw;
+    padding-bottom: 10px;
+
+    && h6{
+        padding-bottom: 15px;
+        color: #260608;
+        font-size: 15px;
+    }
+
+    && h2{
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+
+    && em{
+        color: #64040b;
+        font-style: normal;
+    }
+}
+.srch{
+    && input {
+        border-radius: 15px;
+        height: 6vh;
+        width: 28vw;
+        border: none;
+        padding-left: 19px;
+        outline: none;
+    }
+
+    && button {
+        position: absolute;
+        border: none;
+        background-color: rgb(26, 25, 25);
+        height: 6vh;
+        width: 6rem;
+        border-radius: 15px;
+        cursor: pointer;
+        left: 20rem;
+        top: 340px;
+        color: #fff;
+        transition: 0.5s ease;
+    }
+
+    && button:hover {
+        background-color: rgb(56, 54, 54);
+    }
+
+}
+
+.fondo3{
+    position: absolute;
+    z-index: -1;
+    top: 3rem;
+    left: 28rem;
+    background-image: url(img/Jurassicpark-game-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 25px;
+}
+
+
+footer{
+    margin-top: 150px;
+    background-color: #1d2125;
+    height: 15vh;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 25px;
+    color: #910710;
 }
