@@ -152,9 +152,57 @@ a {
 
 .info{
     width: 30vw;
-    margin-right: 3rem;
+    margin-right: 15rem;
+    margin-top: 50px;
+    && h2 {
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
     && img{
         width: 20px;
         height: 20px;
+    }
+    && p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    && input{
+        background-color: #242628;
+        padding: 20px;
+        padding-left: 20px;
+        width: 4vw;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 10px;
+        outline: none;
+    }
+
+    && button{
+        padding: 10px;
+        border-radius: 25px;
+        background-color: rgb(70, 10, 10);
+    }
+
+}
+
+.precio{
+    color:rgb(74, 10, 10) ;
+    font-size: 30px;
+    font-weight: 700;
+
+    && del{
+        color: rgb(54, 56, 58);
+        font-size: 19px;
+    }
+}
+
+.etiquetas{
+    padding-top: 40px;
+    color: #750a0a;
+
+    && span{
+        color: #242628;
+        padding-right: 30px;
     }
 }
