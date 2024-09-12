@@ -1201,7 +1201,7 @@ a {
 .contenedorsubs{
     padding-top: 100px;
     position: relative;
-    z-index: -2;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -1243,6 +1243,7 @@ a {
     padding: 10px;
     margin-top: 90px;
     font-size: 20px;
+    transition: 0.5s ease;
 
     && a{
         color: #000000;
@@ -1303,7 +1304,7 @@ a {
         border-radius: 15px;
         cursor: pointer;
         left: 20rem;
-        top: 340px;
+        top: 339.1px;
         color: #fff;
         transition: 0.5s ease;
     }
